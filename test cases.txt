@@ -1,0 +1,33 @@
+Test cases 1:
+
+positive scenario:
+
+pass different json input in which one of the input must have overweight
+
+check the output count of overweight
+
+which can be calculated by formula:
+	BMI_Formula=weight/height;
+	where height = height/100;
+	     height = height*height;
+
+the expected count should match with the code output
+
+Test cases 2:
+
+negative scenario:
+
+pass different json input in which one of the input should not contain oveweight
+
+check the output count of overweight which should be zero
+
+formula same as above:
+
+Test case 3:
+
+pass empty input then it should print the input is empty
+
+
+
+
+
